@@ -173,28 +173,138 @@ body.affix .cento-header .nav-wrap {
 
 .social {
   float: left;
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 50px;
   margin: 50px 50px 50px 0;
   background-color: #cccccc;
   z-index: 500;
+  padding: 50px;
+}
 
+.github {
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 20px;
+
+  display: inline-block;
+}
+
+.stack {
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 20px;
+
+  display: inline-block;
+}
+
+.linkedin {
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 20px;
+
+  display: inline-block;
 }
 
 .contact-form {
   float: left;
-  width: calc(100% - 450px);
-  height: 70%;
+  width: calc(100% - 650px);
+  height: 40%;
   margin: 50px;
   background-color: #cccccc;
-
+  padding: 100px;
 }
 
 .gallery-preview {
   width: 350px;
   height: 350px;
-  margin: 50px 0 0 50px ;
+  margin: 50px 0 0 50px;
   background-color: #cccccc;
   float: left;
   overflow: hidden;
+}
+
+#f .n{
+  background: #fff url(../img/mobile.png) no-repeat;
+  background-size:25px;
+  background-position:5px 5px;
+  padding: 10px 0px 10px 40px;
+  border: 1px solid;
+  width: 300px;
+}
+
+#f .n:focus {
+  border: 2px solid;
+}
+
+#f .e{
+  background: #fff url(../img/email.png) no-repeat;
+  background-size:25px;
+  background-position:5px 5px;
+  padding: 10px 0px 10px 40px;
+  border: 1px solid;
+  width: 300px;
+}
+
+#f .e:focus {
+  border: 2px solid;
+}
+
+#f fieldset {
+  width: 500px;
+  border: solid 1px;
+}
+
+#f fieldset legend {
+  font-family: 'muli', sans-serif;
+  font-size:25px;
+  
+}
+
+#f fieldset h2 {
+  font-size:18px;
+  
+}
+
+#f textarea {
+  width: 900px;
+  height: 600px;
+  resize:none;
+  padding: 10px;
+  background-color:rgba(0,0,0,.1);
+  font-size:15px;
+  font-family: 'muli', sans-serif;
+  color: rgba(34,52,72,1.00);
+  border: solid 1px;
+}
+
+#f input[type=submit], #f input[type=reset] {
+  font-family: 'Mulli', sans-serif;
+  font-size: 15px;
+  border:none;
+  cursor: pointer;
+  padding: 10px 30px 10px 10px;
+  margin: 0px 40px 0px 5px;
+  border-radius: 0px 18px 18px 0px;
+  color: rgba(72,70,70,1.00);
+  width: 130px;
+  transition: width .5s, background-color 1s;
+
+}
+
+
+#f input[type=submit], #f input[type=reset] + right {
+  
+}
+
+
+#f right {
+
+    background-color:blue;
+}
+
+#f input[type=submit]:hover, #f input[type=reset]:hover {
+  border:solid 1.5px;
+  width: 140px;
+  background-color: #000000;
+  color: white;
 }
